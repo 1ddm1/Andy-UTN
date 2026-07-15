@@ -1,0 +1,56 @@
+section{
+border-bottom: 1px solid #ccc;
+padding:20px 0;
+}
+
+.lista{
+list-style: none;
+    margin: 10px 0;
+}
+
+.lista li{
+    padding:10px 15px;
+    border:1px solid grey;
+
+}
+
+.lista li:first-child{
+    background-color: #bb1f1f;
+    color: white;
+    font-weight: bold;
+}
+
+.lista li:last-child{
+    background-color: #1fbb1f;
+    color: white;
+    font-weight: bold;
+}
+
+.lista li:nth-child(even){
+    background-color: #1f1fbb;
+    color: white;
+    font-weight: bold;
+}
+
+.lista li:nth-child(odd){
+    background-color: #bb1fbb;
+    color: white;
+    font-weight: bold;
+}
+
+.lista-2{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.lista-2 li{
+    padding:10px 15px;
+    border:1px solid rgb(128, 128, 128);
+    font-style: italic;
+    text-decoration:wavy underline;
+}
+.lista-2 li:nth-child(3n){
+    background-color: #1fbb1f;
+    color: white;
+    font-weight: bold;
+}

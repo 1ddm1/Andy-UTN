@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cssestilo.css">
+</head>
+<body>
+    <h1>Posicionamiento</h1>
+
+    <article>
+        <h2>Posicionamiento static</h2>
+        <p>El posicionamiento static es el valor por defecto de todos los elementos HTML. Los elementos con posicionamiento static se colocan en el flujo normal del documento, uno después del otro, sin superponerse.</p>
+        <div class="box">Caja 1</div>
+        <div class="box gris">Caja 2</div>
+    </article>
+
+    <article>
+        <h2>Posicionamiento relative</h2>
+        <p>El posicionamiento relative permite mover un elemento desde su posición original en el flujo del documento. Se puede usar para ajustar la posición de un elemento sin afectar a los demás elementos.</p>
+        <div class="box">Caja 1</div>
+        <div class="box gris">Caja 2</div>
+        <div class="box azul">Caja 3</div>
+
+    </article>
+
+    <article>
+        <h2> Absolute</h2>
+        <p>El posicionamiento absolute permite colocar un elemento en una posición específica dentro de su contenedor más cercano que tenga un posicionamiento relativo, absoluto o fijo. El elemento se elimina del flujo normal del documento y puede superponerse a otros elementos.</p>
+    <div class="box-parent">
+        <span class="badge">Nuevo</span>
+    </div>
+    </article>
+
+    <article>
+       <h2>Fixed</h2>
+         <p>El posicionamiento fixed permite fijar un elemento en una posición específica dentro de la ventana del navegador, independientemente del desplazamiento de la página. El elemento se mantiene visible mientras se desplaza el contenido.</p>
+          <div class="box-fixed">Caja Fija</div> 
+    </article>
+    <article>
+        <h2>Sticky</h2>
+        <p>El posicionamiento sticky combina características de los posicionamientos relative y fixed. Un elemento con posicionamiento sticky se comporta como relative hasta que alcanza un umbral definido, momento en el cual se "pega" a la posición especificada y se mantiene visible mientras se desplaza el contenido.</p>
+        <div class="scroll-area">
+            <div class="spacer"> Contenido antes del sticky</div>
+            <h3 class="sticky-header"> Header Sticky mira como se pega arriba </h3>
+            <div class="spacer"> contenido largo para poder scrollear</div>
+        </div>
+    </article>
+
+    <a href="#" title="Boton flotante fixed" class="fixed-btn">@</a>
+</body>
+</html>

@@ -1,0 +1,24 @@
+#titulo {
+    color: tomato;
+}
+
+p.especial {
+    color: darkorange;
+}
+p.texto {
+    color: slateblue;
+} 
+
+div p {
+    color: green;
+}
+div h2, div h3 {
+    color: yellow;
+}
+
+*{
+    font-size: 24px;
+    color: black;
+}
+
+/*esto es un comentario*/
