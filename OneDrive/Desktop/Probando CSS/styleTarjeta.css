@@ -1,0 +1,76 @@
+article{
+
+    border-bottom: 2px solid orange;
+
+    padding: 20px 0;
+
+    margin-bottom: 20px;
+
+}
+
+.box{
+
+    width: 120px;
+
+    height: 120px;
+
+    margin: 10px;
+
+    background-color: lightblue;
+
+    color: black;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    border-radius: 8px;
+
+}
+
+.gris{
+
+    background-color: gray;
+
+
+}
+.box-parent{
+
+    position: relative;
+
+    width: 400px;
+
+    height: 200px;
+
+    background-color: bisque;
+
+    border: gray 3px dashed;
+
+    padding: 12px;
+
+}
+
+.badge{
+
+    position: relative;
+
+    width: 400px;
+
+    height: 200px;
+
+    background-color: bisque;
+
+    border: gray 3px dashed;
+
+    padding: 12px;<article>
+
+    <h2> Absolute </h2>
+
+    <p> El padre tiene position relative y el hijo position absolute. El hijo se ubica en la esquina del padre. Este es el patron mas usado (badges)  </p>
+
+    <div class="box-parent">
+
+        <span class="badge" >Nuevo</span>
+
+    </div>
+

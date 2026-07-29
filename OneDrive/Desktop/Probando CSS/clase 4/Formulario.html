@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- <style>
+        @import url('style.css');
+    </style> -->
+</head>
+ <header class="header">
+        <h1>Bienvenido a la Clínica</h1>
+    </header>
+<body>
+    <main class="appointment-page">
+        <h2>Formulario de Turnos</h2>
+        <h3>Complete el siguiente formulario para solicitar un turno</h3>
+        <form>
+            <label for="nombre del paciente">Nombre del paciente:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="fecha">Fecha de turno:</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <label for="hora">Hora de turno:</label>
+            <input type="radio" id="mañana" name="mañana" value="mañana" required>
+            <label for="mañana">Mañana</label>
+            <input type="radio" id="mañana" name="mañana" value="tarde" required>
+            <label for="tarde">Tarde</label>
+
+    
+            <button type="submit">Enviar</button><br>
+            <br>
+            <h4>Nota: Al enviar el formulario, se enviará un correo electrónico de confirmación al paciente con los detalles del turno solicitado.</h4>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2026 Clínica. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
